@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.title {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input,
+form select {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+legend {
+  padding: 0 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.custom-modal {
+  --overlay-bg: rgba(0, 0, 0, 0.75); /* Couleur de fond de l'overlay */
+  --modal-bg: #fff; /* Couleur de fond de la modale */
+  --modal-padding: 20px; /* Padding à l'intérieur de la modale */
+  --modal-radius: 10px; /* Rayon des coins de la modale */
+  --modal-width: 400px; /* Largeur de la modale */
+  --modal-height: auto; /* Hauteur de la modale, ajustée automatiquement */
+  --modal-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la modale */
+  --close-bg: #000; /* Couleur de fond du bouton de fermeture */
+  --close-size: 30px; /* Taille du bouton de fermeture */
+  --close-font-size: 25px; /* Taille de la police du bouton de fermeture */
+  --close-color: #fff; /* Couleur de la police du bouton de fermeture */
+}
