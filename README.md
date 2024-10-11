@@ -1,13 +1,25 @@
-Documentation : Modification des Variables de `CustomModal` dans `index.css`
+Procédure d'Installation
+Avant de pouvoir utiliser CustomModal, vous devez vous assurer qu'il est correctement installé et intégré à votre projet. Voici les étapes à suivre :
+
+Installation des dépendances
+CustomModal est un composant, installez-le via npm. Exécutez la commande suivantes dans votre terminal à la racine de votre projet :
+npm install oc14
+
+
+Importation du Composant
+Dans le fichier où vous souhaitez utiliser CustomModal, importez-le en ajoutant la ligne suivante en haut de votre fichier :
+import CustomModal from 'oc14'; 
+
+Modification des Variables de `CustomModal` dans `index.css`
 
  Introduction
 Ce document explique comment modifier les variables CSS de `CustomModal` dans le fichier `index.css` et décrit l'impact de chaque variable sur l'apparence de la modale.
 
-Localisation des Variables
-Les variables CSS spécifiques à `CustomModal` sont définies sous le sélecteur `.custom-modal` dans le fichier `index.css`. Voici un extrait du fichier `index.css` où ces variables sont définies :
+Copiez les Variables suivante a la fin de votre index.css a la racine de votre projet 
+Les variables CSS spécifiques à `CustomModal` sont définies sous le sélecteur `.custom-modal` :
 
 
-/* index.css */
+
 .custom-modal {
   --overlay-bg: rgba(0, 0, 0, 0.75); /* Couleur de fond de l'overlay */
 
@@ -28,7 +40,7 @@ Les variables CSS spécifiques à `CustomModal` sont définies sous le sélecteu
   --close-size: 30px; /* Taille du bouton de fermeture */
 
   --close-font-size: 25px; /* Taille de la police du bouton de fermeture */
-  
+
   --close-color: #fff; /* Couleur de la police du bouton de fermeture */
 }
 
