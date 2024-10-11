@@ -10,15 +10,25 @@ Les variables CSS spécifiques à `CustomModal` sont définies sous le sélecteu
 /* index.css */
 .custom-modal {
   --overlay-bg: rgba(0, 0, 0, 0.75); /* Couleur de fond de l'overlay */
+
   --modal-bg: #fff; /* Couleur de fond de la modale */
+
   --modal-padding: 20px; /* Padding à l'intérieur de la modale */
+
   --modal-radius: 10px; /* Rayon des coins de la modale */
+
   --modal-width: 400px; /* Largeur de la modale */
+
   --modal-height: auto; /* Hauteur de la modale, ajustée automatiquement */
+
   --modal-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre de la modale */
+
   --close-bg: #000; /* Couleur de fond du bouton de fermeture */
+
   --close-size: 30px; /* Taille du bouton de fermeture */
+
   --close-font-size: 25px; /* Taille de la police du bouton de fermeture */
+  
   --close-color: #fff; /* Couleur de la police du bouton de fermeture */
 }
 
