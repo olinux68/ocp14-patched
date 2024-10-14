@@ -3,12 +3,12 @@ Avant de pouvoir utiliser CustomModal, vous devez vous assurer qu'il est correct
 
 Installation des dépendances
 CustomModal est un composant, installez-le via npm. Exécutez la commande suivantes dans votre terminal à la racine de votre projet :
-npm install oc14
+npm install ocp14
 
 
 Importation du Composant
 Dans le fichier où vous souhaitez utiliser CustomModal, importez-le en ajoutant la ligne suivante en haut de votre fichier :
-import CustomModal from 'oc14'; 
+import CustomModal from 'ocp14'; 
 
 Modification des Variables de `CustomModal` dans `index.css`
 
