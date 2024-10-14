@@ -20,6 +20,7 @@ Les variables CSS spécifiques à `CustomModal` sont définies sous le sélecteu
 
 
 
+
 .custom-modal {
   overlay-bg: rgba(0, 0, 0, 0.75); /* Couleur de fond de l'overlay */
   
