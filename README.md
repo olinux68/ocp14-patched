@@ -28,11 +28,9 @@ Ce document explique comment modifier les variables CSS de **CustomModal** dans 
 **Copiez les variables suivantes à la fin de votre `index.css` à la racine de votre projet**. Les variables CSS spécifiques à **CustomModal** sont définies sous le sélecteur `.custom-modal` :
 
 ```css
-<<<<<<< HEAD
  :root {
-=======
+
 .custom-modal {
->>>>>>> 5fee45fa6b30c37c8613bf36d6a7e93d7bbb02f4
   --overlay-bg: rgba(0, 0, 0, 0.75); /* Couleur de fond de l'overlay */
   --modal-bg: #fff; /* Couleur de fond de la modale */
   --modal-padding: 20px; /* Padding à l'intérieur de la modale */
