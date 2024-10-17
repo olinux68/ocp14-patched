@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './CreateEmployee.css';
-import CustomModal from 'ocp14';
+import CustomModal from 'ocp14'; // Assurez-vous que le chemin est correct
 
 const CreateEmployee = () => {
   const [employee, setEmployee] = useState({
@@ -103,7 +103,7 @@ const CreateEmployee = () => {
         <button type="submit">Save</button>
       </form>
 
-      <CustomModal isOpen={modalIsOpen} onClose={() => setModalIsOpen(false)}>
+      <CustomModal isOpen={modalIsOpen} onClose={() => setModalIsOpen(false)} className="custom-modal">
         <h3>Employee Created!</h3>
       </CustomModal>
     </div>
